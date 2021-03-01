@@ -112,10 +112,16 @@ p {
   left: 55%;
   z-index: -1;
 }
-@media (max-width: 870px) {
+@media (max-width: 1140px) {
   .top-main {
-    height: 400px;
-    width: 200px;
+    height: 600px;
+    width: 500px;
+  }
+}
+@media (max-width: 1099px) {
+  .top-main {
+    height: 500px;
+    width: 450px;
   }
   .bottom-main {
     height: 200px;
@@ -138,7 +144,6 @@ p {
     width: 200px;
   }
   .card {
-    position: fixed;
     top: 40%;
   }
   .card {
